@@ -2008,7 +2008,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Start Here - Scale Objects"
+          String: "Objects"
         }
         Overrides {
           Name: "Position"

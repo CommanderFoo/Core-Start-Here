@@ -2010,22 +2010,11 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 14309124957058572141
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -75.758667
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 15013694063052376614
       value {
         Overrides {
           Name: "Name"
-          String: "Rotation Objects"
+          String: "Objects"
         }
         Overrides {
           Name: "Position"

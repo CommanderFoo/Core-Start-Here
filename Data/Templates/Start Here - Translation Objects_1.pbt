@@ -43,7 +43,7 @@ Assets {
         Name: "Yellow Cube"
         Transform {
           Location {
-            Y: -600
+            Y: -750
           }
           Rotation {
           }
@@ -233,7 +233,7 @@ Assets {
         Name: "Yellow Square"
         Transform {
           Location {
-            Y: -1158.729
+            Y: -1150
             Z: 4.24984741
           }
           Rotation {

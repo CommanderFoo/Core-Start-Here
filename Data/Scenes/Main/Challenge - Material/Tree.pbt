@@ -2014,7 +2014,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Start Here - Material Objects"
+          String: "Objects"
         }
         Overrides {
           Name: "Position"
