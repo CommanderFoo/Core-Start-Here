@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14412143968692456990
+  Name: "Animated Glowing Hex"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_hex_animated"
+  }
+}
+Assets {
   Id: 14400219362966545222
   Name: "Wood Planks"
   PlatformAssetType: 2

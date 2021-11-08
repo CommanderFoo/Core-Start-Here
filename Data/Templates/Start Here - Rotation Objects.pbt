@@ -7,7 +7,7 @@ Assets {
       RootId: 15013694063052376614
       Objects {
         Id: 15013694063052376614
-        Name: "Rotation Objects"
+        Name: "Objects"
         Transform {
           Scale {
             X: 1
@@ -178,7 +178,7 @@ Assets {
       }
       Objects {
         Id: 3708222602694417194
-        Name: "Fox Mob"
+        Name: "Fox"
         Transform {
           Location {
             X: 40.8964233

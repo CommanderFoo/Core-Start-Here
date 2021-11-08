@@ -24,14 +24,14 @@ end
 
 local sphere_scale = red_sphere:GetWorldScale()
 
-if(sphere_scale.x >= 2.9 and sphere_scale.x <= 3.1 and sphere_scale.y >= 2.9 and sphere_scale.y <= 3.1 and sphere_scale.z >= 2.9 and sphere_scale.z <= 3.1) then
+if(sphere_scale.x >= 2.25 and sphere_scale.x <= 2.35 and sphere_scale.y >= 2.25 and sphere_scale.y <= 2.35 and sphere_scale.z >= 2.25 and sphere_scale.z <= 2.35) then
 	success = success + 1
 	Start_Here.show_tick(step2_ui)
 end
 
 local cylinder = blue_cylinder:GetWorldScale()
 
-if(sphere_scale.z >= 2.4 and cylinder.z < 2.6) then
+if(cylinder.z >= 2.4 and cylinder.z <= 2.6) then
 	success = success + 1
 	Start_Here.show_tick(step3_ui)
 end

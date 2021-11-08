@@ -2010,6 +2010,20 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 2719520583205511117
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.881968141
+            G: 0.714
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 4430006706240769585
       value {
         Overrides {
@@ -2026,6 +2040,31 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10637550184593885546
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 14412143968692456990
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16190887688753162976
+      value {
+        Overrides {
+          Name: "ma:Shared_Detail1:color"
+          Color {
+            R: 0.750507832
+            G: 0.458
+            B: 1
+            A: 1
           }
         }
       }

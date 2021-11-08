@@ -25,7 +25,7 @@ end
 
 local sphere_material = red_sphere:GetMaterialSlots()[1]
 
-if(sphere_material.materialAssetName == "Bark Redwood 01") then
+if(sphere_material.materialAssetName ~= "Basic Material") then
 	success = success + 1
 	Start_Here.show_tick(step2_ui)
 end
