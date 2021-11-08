@@ -38,5 +38,5 @@ if(bottle_material:GetColor() ~= Color.WHITE) then
 end
 
 if(success == 3 and root.visibility ~= Visibility.FORCE_OFF) then
-	Events.Broadcast("show_success", "Material", "Spawn Point")
+	Events.Broadcast("complete")
 end
