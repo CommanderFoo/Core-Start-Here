@@ -1,7 +1,7 @@
 Name: "Scripts_1"
-RootId: 16376676824679833075
+RootId: 5994742921117324021
 Objects {
-  Id: 7275508463887594377
+  Id: 5374413431800515772
   Name: "Client"
   Transform {
     Location {
@@ -14,8 +14,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16376676824679833075
-  ChildIds: 14494354592291594705
+  ParentId: 5994742921117324021
+  ChildIds: 8977369462020639227
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -32,7 +32,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14494354592291594705
+  Id: 8977369462020639227
   Name: "Start_Here_Translation_Challenge_Client"
   Transform {
     Location {
@@ -45,18 +45,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7275508463887594377
+  ParentId: 5374413431800515772
   UnregisteredParameters {
     Overrides {
       Name: "cs:yellow_trigger"
       ObjectReference {
-        SelfId: 2404332208912473835
+        SelfId: 7430745399726698230
       }
     }
     Overrides {
       Name: "cs:yellow_cube"
       ObjectReference {
-        SelfId: 11899201409799531363
+        SelfId: 16384337709666950014
       }
     }
     Overrides {
@@ -68,55 +68,55 @@ Objects {
     Overrides {
       Name: "cs:step1_ui"
       ObjectReference {
-        SelfId: 5379756169468502583
+        SelfId: 6713954717624562678
       }
     }
     Overrides {
       Name: "cs:step2_ui"
       ObjectReference {
-        SelfId: 10033334211006269465
+        SelfId: 7089391692612480176
       }
     }
     Overrides {
       Name: "cs:step3_ui"
       ObjectReference {
-        SelfId: 550314980319629771
+        SelfId: 12031314768743867011
       }
     }
     Overrides {
       Name: "cs:step4_ui"
       ObjectReference {
-        SelfId: 1796645450966143588
+        SelfId: 18303349504833899468
       }
     }
     Overrides {
       Name: "cs:root"
       ObjectReference {
-        SelfId: 16737941508712845126
+        SelfId: 16196796817296945911
       }
     }
     Overrides {
       Name: "cs:red_sphere"
       ObjectReference {
-        SelfId: 6121751934209084799
+        SelfId: 1348401507359669602
       }
     }
     Overrides {
       Name: "cs:red_trigger"
       ObjectReference {
-        SelfId: 13032436012238607302
+        SelfId: 17482458584576713691
       }
     }
     Overrides {
       Name: "cs:blue_cylinder"
       ObjectReference {
-        SelfId: 841534158063459245
+        SelfId: 5286243905911725926
       }
     }
     Overrides {
       Name: "cs:blue_trigger"
       ObjectReference {
-        SelfId: 10663729155464330129
+        SelfId: 15402176443341114252
       }
     }
   }

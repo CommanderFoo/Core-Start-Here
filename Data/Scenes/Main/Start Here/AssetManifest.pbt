@@ -43,3 +43,12 @@ Assets {
     AssetId: "Core_UI_AbstractPackFrame_004"
   }
 }
+Assets {
+  Id: 587048114268740546
+  Name: "Icon mouse Right"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_MouseRMB"
+  }
+}

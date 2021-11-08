@@ -202,7 +202,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 1058
+    Width: 1180
     Height: 96
     RenderTransformPivot {
       Anchor {
@@ -211,7 +211,7 @@ Objects {
     }
     AddSizeToParentIfUsingParentSize: true
     Text {
-      Label: "Select Blue Cylinder. In the Properties window, hover the mouse over the X value for the Position property to nudge the object into position."
+      Label: "Select Blue Cylinder. In the Properties window, hover the mouse over the X property. Hold left mouse donw and drag left or right to nudge the position."
       Color {
         R: 1
         G: 1
@@ -2004,6 +2004,18 @@ Objects {
   ParentId: 11703923679340297822
   TemplateInstance {
     ParameterOverrideMap {
+      key: 288194384440042446
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: -1158.729
+            Z: 4.24984741
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 8694458563598211259
       value {
         Overrides {
@@ -2069,7 +2081,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Scripts_3"
+    FilePartitionName: "Scripts_1"
   }
   IsAdvanced: true
 }

@@ -1,13 +1,13 @@
 Assets {
-  Id: 2037869700702841714
-  Name: "Start Here - Translation Objects"
+  Id: 4427370723273609735
+  Name: "Start Here - Scale Objects"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 1852576119620748381
+      RootId: 8768492793163169027
       Objects {
-        Id: 1852576119620748381
-        Name: "Start Here - Translation Objects"
+        Id: 8768492793163169027
+        Name: "Start Here - Scale Objects"
         Transform {
           Scale {
             X: 1
@@ -15,11 +15,13 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11703923679340297822
-        ChildIds: 15281261343130339092
-        ChildIds: 2722235116218425608
-        ChildIds: 9092113161393013516
-        ChildIds: 12630000465822694497
+        ParentId: 11117692185548590955
+        ChildIds: 1637533764661127983
+        ChildIds: 17830509933640953442
+        ChildIds: 14115554726697624678
+        ChildIds: 11643438870495077193
+        ChildIds: 854510753436611649
+        ChildIds: 16301226813023225526
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -37,11 +39,11 @@ Assets {
         }
       }
       Objects {
-        Id: 15281261343130339092
+        Id: 1637533764661127983
         Name: "Yellow Cube"
         Transform {
           Location {
-            Y: -200
+            Y: -900
           }
           Rotation {
           }
@@ -51,7 +53,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 1852576119620748381
+        ParentId: 8768492793163169027
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -99,22 +101,21 @@ Assets {
         }
       }
       Objects {
-        Id: 2722235116218425608
+        Id: 17830509933640953442
         Name: "Red Sphere"
         Transform {
           Location {
             Y: 200
-            Z: 47.4193878
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.75
+            Y: 0.75
+            Z: 0.75
           }
         }
-        ParentId: 1852576119620748381
+        ParentId: 8768492793163169027
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -151,6 +152,7 @@ Assets {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -161,22 +163,21 @@ Assets {
         }
       }
       Objects {
-        Id: 9092113161393013516
+        Id: 14115554726697624678
         Name: "Blue Cylinder"
         Transform {
           Location {
-            Y: 600
-            Z: 51.7606201
+            Y: 1300
           }
           Rotation {
           }
           Scale {
             X: 1
             Y: 1
-            Z: 1
+            Z: 0.75
           }
         }
-        ParentId: 1852576119620748381
+        ParentId: 8768492793163169027
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -208,12 +209,13 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 3057504257001983719
+            Id: 8167859669646026840
           }
           Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -224,28 +226,27 @@ Assets {
         }
       }
       Objects {
-        Id: 12630000465822694497
-        Name: "Back Square"
+        Id: 11643438870495077193
+        Name: "Yellow Square"
         Transform {
           Location {
-            Y: -600
+            Y: -900
             Z: 4.24984741
           }
           Rotation {
           }
           Scale {
             X: 1
-            Y: 1
+            Y: 2
             Z: 1
           }
         }
-        ParentId: 1852576119620748381
-        ChildIds: 5795677516884538012
+        ParentId: 8768492793163169027
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 18156849908717703465
+              Id: 16640192872858136421
             }
           }
           Overrides {
@@ -285,23 +286,40 @@ Assets {
             BoundsScale: 1
           }
         }
+        IsAdvanced: true
       }
       Objects {
-        Id: 5795677516884538012
-        Name: "Trigger"
+        Id: 854510753436611649
+        Name: "Red Circle"
         Transform {
           Location {
-            Z: 50
+            Y: 200
+            Z: 5.06703186
           }
           Rotation {
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 2.31686163
+            Y: 2.31686163
+            Z: 2.31686163
           }
         }
-        ParentId: 12630000465822694497
+        ParentId: 8768492793163169027
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 16640192872858136421
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -314,13 +332,144 @@ Assets {
         EditorIndicatorVisibility {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
-        Trigger {
-          TeamSettings {
+        CoreMesh {
+          MeshAsset {
+            Id: 10464422893221517865
+          }
+          Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:box"
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        IsAdvanced: true
+      }
+      Objects {
+        Id: 16301226813023225526
+        Name: "Blue Ring"
+        Transform {
+          Location {
+            Y: 1300
+            Z: 250
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 8768492793163169027
+        ChildIds: 2201084339672120215
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 16640192872858136421
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13299206338558242268
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        IsAdvanced: true
+      }
+      Objects {
+        Id: 2201084339672120215
+        Name: "Blue Ring"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Roll: -179.999985
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 16301226813023225526
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 16640192872858136421
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              B: 1
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13299206338558242268
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
           }
         }
         IsAdvanced: true
@@ -354,12 +503,12 @@ Assets {
       }
     }
     Assets {
-      Id: 3057504257001983719
-      Name: "Cylinder"
+      Id: 8167859669646026840
+      Name: "Cylinder - Bottom-Aligned"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_002"
+        AssetId: "sm_cylinder_001"
       }
     }
     Assets {
@@ -372,12 +521,21 @@ Assets {
       }
     }
     Assets {
-      Id: 18156849908717703465
-      Name: "Emissive Glow Transparent"
-      PlatformAssetType: 2
+      Id: 10464422893221517865
+      Name: "Plane Circle - One Sided"
+      PlatformAssetType: 1
       PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_emissive_001"
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_plane_circle_001"
+      }
+    }
+    Assets {
+      Id: 13299206338558242268
+      Name: "Plane Ring - One Sided Thick"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_plane_ring_003"
       }
     }
     PrimaryAssetId {
@@ -386,5 +544,4 @@ Assets {
     }
   }
   SerializationVersion: 101
-  VirtualFolderPath: "Start Here"
 }

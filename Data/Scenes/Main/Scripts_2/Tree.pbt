@@ -15,7 +15,7 @@ Objects {
     }
   }
   ParentId: 5928944391150242382
-  ChildIds: 4257490695312791460
+  ChildIds: 9359823506490983548
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -32,8 +32,8 @@ Objects {
   }
 }
 Objects {
-  Id: 4257490695312791460
-  Name: "Start_Here_Translation_Challenge_Client"
+  Id: 9359823506490983548
+  Name: "Start_Here_Rotation_Challenge_Client"
   Transform {
     Location {
     }
@@ -47,18 +47,6 @@ Objects {
   }
   ParentId: 1375961647807570963
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:yellow_trigger"
-      ObjectReference {
-        SelfId: 2404332208912473835
-      }
-    }
-    Overrides {
-      Name: "cs:yellow_cube"
-      ObjectReference {
-        SelfId: 11899201409799531363
-      }
-    }
     Overrides {
       Name: "cs:Start_Here_API"
       AssetReference {
@@ -96,28 +84,70 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:red_sphere"
+      Name: "cs:chest"
       ObjectReference {
-        SelfId: 6121751934209084799
+        SelfId: 940908277184554178
+        SubObjectId: 13027979123958122260
+        InstanceId: 4284581131891927787
+        TemplateId: 13994899552683971218
       }
     }
     Overrides {
-      Name: "cs:red_trigger"
+      Name: "cs:fox"
       ObjectReference {
-        SelfId: 13032436012238607302
+        SelfId: 9994659808740456700
+        SubObjectId: 3708222602694417194
+        InstanceId: 4284581131891927787
+        TemplateId: 13994899552683971218
       }
     }
     Overrides {
-      Name: "cs:blue_cylinder"
-      ObjectReference {
-        SelfId: 841534158063459245
-      }
+      Name: "cs:Start_Here_API:isrep"
+      Bool: false
     }
     Overrides {
-      Name: "cs:blue_trigger"
-      ObjectReference {
-        SelfId: 10663729155464330129
-      }
+      Name: "cs:Start_Here_API:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step1_ui:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step1_ui:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step2_ui:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step2_ui:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step3_ui:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step3_ui:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step4_ui:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step4_ui:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:root:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:root:ml"
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -134,7 +164,7 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 11467311607381697756
+      Id: 16093859521297816874
     }
   }
 }

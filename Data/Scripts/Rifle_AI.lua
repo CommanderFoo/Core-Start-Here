@@ -1,12 +1,16 @@
 local ACTIVITY_HANDLER = script.parent
-
+local root = script:GetCustomProperty("root"):WaitForObject()
 local bullet = script:GetCustomProperty("bullet")
 local bullet_pos = script:GetCustomProperty("bullet_pos"):WaitForObject()
+local npc = script:GetCustomProperty("npc"):WaitForObject()
 
+local task = nil
+local has_hit = false
 
-local function OnImpact(projectile, obj, hit)
-	if Object.IsValid(obj) then
-		print(hit.other.name)
+local function on_impact(projectile, obj, hit)
+	if(Object.IsValid(obj) and obj == npc and not has_hit) then
+		has_hit = true
+		Events.Broadcast("rotation_task_3_complete")
 	end
 end
 
@@ -16,15 +20,17 @@ local function shoot()
 	local direction = ACTIVITY_HANDLER:GetWorldRotation() * Vector3.FORWARD
 	local proj = Projectile.Spawn(bullet, start_pos, direction)
 
-	proj.speed = 80
-	proj.shouldDieOnImpact = true
-	proj.lifeSpan = 6
+	proj.speed = 160
+	proj.shouldDieOnImpact = false
+	proj.lifeSpan = 2
 	proj.gravityScale = 0
 
-	proj.impactEvent:Connect(OnImpact)
+	proj.impactEvent:Connect(on_impact)
 end
 
-local t = Task.Spawn(shoot)
+if(root.visibility ~= Visibility.FORCE_OFF) then
+	task = Task.Spawn(shoot)
 
-t.repeatInterval = 1
-t.repeatCount = -1
+	task.repeatInterval = 1
+	task.repeatCount = -1
+end

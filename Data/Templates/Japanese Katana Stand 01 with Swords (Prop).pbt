@@ -1,13 +1,13 @@
 Assets {
-  Id: 8800325646449160642
-  Name: "Start Here - Translation Objects"
+  Id: 2422077878024280202
+  Name: "Japanese Katana Stand 01 with Swords (Prop)"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 13046002261135940594
+      RootId: 13715443215962432520
       Objects {
-        Id: 13046002261135940594
-        Name: "Objects"
+        Id: 13715443215962432520
+        Name: "Japanese Katana Stand 01 with Swords(Prop)"
         Transform {
           Scale {
             X: 1
@@ -15,13 +15,13 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 11703923679340297822
-        ChildIds: 8694458563598211259
-        ChildIds: 9907439447432347303
-        ChildIds: 15173952581229780131
-        ChildIds: 288194384440042446
-        ChildIds: 16073930618706663798
-        ChildIds: 5788519280013863693
+        ParentId: 4781671109827199097
+        ChildIds: 18401683307152322350
+        ChildIds: 3498479663782669848
+        ChildIds: 12256597725795747384
+        ChildIds: 15232099331815963148
+        ChildIds: 16115763139218556073
+        ChildIds: 14582278556757072785
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -39,11 +39,10 @@ Assets {
         }
       }
       Objects {
-        Id: 8694458563598211259
-        Name: "Yellow Cube"
+        Id: 18401683307152322350
+        Name: "Stand Katana - Base 01"
         Transform {
           Location {
-            Y: -600
           }
           Rotation {
           }
@@ -53,23 +52,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13046002261135940594
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16287923630633682412
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 1
-              G: 1
-              A: 1
-            }
-          }
-        }
+        ParentId: 13715443215962432520
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -84,13 +67,12 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 16311600500931444045
+            Id: 3007033251064531162
           }
           Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -101,12 +83,12 @@ Assets {
         }
       }
       Objects {
-        Id: 9907439447432347303
-        Name: "Red Sphere"
+        Id: 3498479663782669848
+        Name: "Stand Katana - Back 01"
         Transform {
           Location {
-            Y: 200
-            Z: 300
+            Y: -14
+            Z: 46
           }
           Rotation {
           }
@@ -116,23 +98,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13046002261135940594
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16287923630633682412
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 1
-              G: 3.25203018e-07
-              A: 1
-            }
-          }
-        }
+        ParentId: 13715443215962432520
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -147,13 +113,12 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 18373639941541579399
+            Id: 7948167637451889616
           }
           Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -164,13 +129,13 @@ Assets {
         }
       }
       Objects {
-        Id: 15173952581229780131
-        Name: "Blue Cylinder"
+        Id: 12256597725795747384
+        Name: "Stand Katana - Holder 01"
         Transform {
           Location {
-            X: -300
-            Y: 1300
-            Z: 51.7606201
+            X: 32
+            Y: -7
+            Z: 46
           }
           Rotation {
           }
@@ -180,24 +145,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13046002261135940594
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16287923630633682412
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 0.133
-              G: 0.242000043
-              B: 1
-              A: 1
-            }
-          }
-        }
+        ParentId: 13715443215962432520
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -212,13 +160,12 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 3057504257001983719
+            Id: 1299540107153138585
           }
           Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
               Mass: 100
@@ -229,12 +176,13 @@ Assets {
         }
       }
       Objects {
-        Id: 288194384440042446
-        Name: "Yellow Square"
+        Id: 15232099331815963148
+        Name: "Stand Katana - Holder 01"
         Transform {
           Location {
-            Y: -1158.729
-            Z: 4.24984741
+            X: -32
+            Y: -7
+            Z: 46
           }
           Rotation {
           }
@@ -244,24 +192,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13046002261135940594
-        ChildIds: 18219163013996375347
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16640192872858136421
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 1
-              G: 1
-              A: 1
-            }
-          }
-        }
+        ParentId: 13715443215962432520
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -276,7 +207,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 2056914992845306002
+            Id: 1299540107153138585
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -290,16 +221,20 @@ Assets {
             BoundsScale: 1
           }
         }
-        IsAdvanced: true
       }
       Objects {
-        Id: 18219163013996375347
-        Name: "Trigger"
+        Id: 16115763139218556073
+        Name: "Katana with Scabbard"
         Transform {
           Location {
-            Z: 50
+            X: -52.69104
+            Y: -11.184021
+            Z: 90.3117065
           }
           Rotation {
+            Pitch: -88.0875549
+            Yaw: 180
+            Roll: 180
           }
           Scale {
             X: 1
@@ -307,7 +242,10 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 288194384440042446
+        ParentId: 13715443215962432520
+        ChildIds: 3657864372870061591
+        ChildIds: 931556077921064484
+        ChildIds: 1625094555904239652
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -320,23 +258,16 @@ Assets {
         EditorIndicatorVisibility {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
-        Trigger {
-          TeamSettings {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:box"
-          }
+        Folder {
+          IsGroup: true
         }
       }
       Objects {
-        Id: 16073930618706663798
-        Name: "Red Circle"
+        Id: 3657864372870061591
+        Name: "Katana Scabbard"
         Transform {
           Location {
-            Y: 200
-            Z: 5.06703186
+            Z: 10.751442
           }
           Rotation {
           }
@@ -346,23 +277,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13046002261135940594
-        ChildIds: 7590285960631279646
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16640192872858136421
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              R: 1
-              A: 1
-            }
-          }
-        }
+        ParentId: 16115763139218556073
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -377,7 +292,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 10464422893221517865
+            Id: 11326233822180704771
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -391,53 +306,13 @@ Assets {
             BoundsScale: 1
           }
         }
-        IsAdvanced: true
       }
       Objects {
-        Id: 7590285960631279646
-        Name: "Trigger"
+        Id: 931556077921064484
+        Name: "Katana Guard"
         Transform {
           Location {
-            Z: 12.0569763
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1.54700732
-            Y: 1.54700732
-            Z: 1.54700732
-          }
-        }
-        ParentId: 16073930618706663798
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Trigger {
-          TeamSettings {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:sphere"
-          }
-        }
-      }
-      Objects {
-        Id: 5788519280013863693
-        Name: "Blue Ring"
-        Transform {
-          Location {
-            Y: 1300
-            Z: 1.17640686
+            Z: 9.70993805
           }
           Rotation {
           }
@@ -447,23 +322,7 @@ Assets {
             Z: 1
           }
         }
-        ParentId: 13046002261135940594
-        ChildIds: 5654184084111296585
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16640192872858136421
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              B: 1
-              A: 1
-            }
-          }
-        }
+        ParentId: 16115763139218556073
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -478,7 +337,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13299206338558242268
+            Id: 3642695097438974619
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -492,24 +351,23 @@ Assets {
             BoundsScale: 1
           }
         }
-        IsAdvanced: true
       }
       Objects {
-        Id: 5654184084111296585
-        Name: "Trigger"
+        Id: 1625094555904239652
+        Name: "Katana Handle"
         Transform {
           Location {
-            Z: 51.2031403
+            Z: 8.63748169
           }
           Rotation {
           }
           Scale {
-            X: 0.947598279
-            Y: 0.947598279
-            Z: 1.56862497
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
-        ParentId: 5788519280013863693
+        ParentId: 16115763139218556073
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -522,85 +380,283 @@ Assets {
         EditorIndicatorVisibility {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
-        Trigger {
-          TeamSettings {
+        CoreMesh {
+          MeshAsset {
+            Id: 15275463334341845517
+          }
+          Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:capsule"
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 14582278556757072785
+        Name: "Wakizashi with Scabbard"
+        Transform {
+          Location {
+            X: -29.0499268
+            Y: -2
+            Z: 58.6106758
+          }
+          Rotation {
+            Pitch: 88.785
+            Yaw: -179.999985
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13715443215962432520
+        ChildIds: 7848489450484535237
+        ChildIds: 846446501539948661
+        ChildIds: 16938264010957274512
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 7848489450484535237
+        Name: "Wakizashi Handle"
+        Transform {
+          Location {
+            Z: 11.2263718
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14582278556757072785
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12080914882244420748
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 846446501539948661
+        Name: "Wakizashi Guard"
+        Transform {
+          Location {
+            Z: 12.6567764
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14582278556757072785
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 9431042241311314062
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 16938264010957274512
+        Name: "Wakizashi Scabbard"
+        Transform {
+          Location {
+            Z: 14.0730133
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 14582278556757072785
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 8476829092336201027
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
           }
         }
       }
     }
     Assets {
-      Id: 16311600500931444045
-      Name: "Cube - Bottom-Aligned"
+      Id: 3007033251064531162
+      Name: "Japanese - Stand Katana - Base 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_001"
+        AssetId: "sm_prop_jpn_stand_katana_base_001_ref"
       }
     }
     Assets {
-      Id: 16287923630633682412
-      Name: "Basic Material"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_pbr_material_001"
-      }
-    }
-    Assets {
-      Id: 18373639941541579399
-      Name: "Sphere"
+      Id: 7948167637451889616
+      Name: "Japanese - Stand Katana - Back 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_sphere_002"
+        AssetId: "sm_prop_jpn_stand_katana_back_001_ref"
       }
     }
     Assets {
-      Id: 3057504257001983719
-      Name: "Cylinder"
+      Id: 1299540107153138585
+      Name: "Japanese - Stand Katana - Holder 01"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cylinder_002"
+        AssetId: "sm_prop_jpn_stand_katana_holder_001_ref"
       }
     }
     Assets {
-      Id: 2056914992845306002
-      Name: "Plane 1m - One Sided"
+      Id: 11326233822180704771
+      Name: "Katana Scabbard"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_plane_1m_001"
+        AssetId: "sm_prop_jpn_katana_scabbard_001"
       }
     }
     Assets {
-      Id: 10464422893221517865
-      Name: "Plane Circle - One Sided"
+      Id: 3642695097438974619
+      Name: "Katana Guard"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_plane_circle_001"
+        AssetId: "sm_prop_jpn_katana_guard_001"
       }
     }
     Assets {
-      Id: 13299206338558242268
-      Name: "Plane Ring - One Sided Thick"
+      Id: 15275463334341845517
+      Name: "Katana Handle"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_plane_ring_003"
+        AssetId: "sm_prop_jpn_katana_handle_001"
+      }
+    }
+    Assets {
+      Id: 12080914882244420748
+      Name: "Wakizashi Handle"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prop_jpn_wakizashi_handle_001"
+      }
+    }
+    Assets {
+      Id: 9431042241311314062
+      Name: "Wakizashi Guard"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prop_jpn_wakizashi_guard_001"
+      }
+    }
+    Assets {
+      Id: 8476829092336201027
+      Name: "Wakizashi Scabbard"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_prop_jpn_wakizashi_scabbard_001"
       }
     }
     PrimaryAssetId {
-      AssetType: "None"
-      AssetId: "None"
+      AssetType: "TemplateAssetRef"
+      AssetId: "Japanese_Katana_Stand_01_with_Swords_Prop_"
     }
   }
   SerializationVersion: 101
-  VirtualFolderPath: "Start Here"
 }

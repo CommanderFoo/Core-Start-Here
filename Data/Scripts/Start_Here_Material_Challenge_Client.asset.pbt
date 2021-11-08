@@ -1,6 +1,6 @@
 Assets {
-  Id: 10139659402558168400
-  Name: "WeaponReticleUIClient"
+  Id: 14250268450732242338
+  Name: "Start_Here_Material_Challenge_Client"
   PlatformAssetType: 3
   TextAsset {
   }

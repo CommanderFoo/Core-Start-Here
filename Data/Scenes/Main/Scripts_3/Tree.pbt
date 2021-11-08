@@ -1,7 +1,7 @@
 Name: "Scripts_3"
-RootId: 5994742921117324021
+RootId: 4435792248668829570
 Objects {
-  Id: 5374413431800515772
+  Id: 6239603124641240916
   Name: "Client"
   Transform {
     Location {
@@ -14,8 +14,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5994742921117324021
-  ChildIds: 8977369462020639227
+  ParentId: 4435792248668829570
+  ChildIds: 5417948208112333972
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -32,8 +32,8 @@ Objects {
   }
 }
 Objects {
-  Id: 8977369462020639227
-  Name: "Start_Here_Translation_Challenge_Client"
+  Id: 5417948208112333972
+  Name: "Start_Here_Material_Challenge_Client"
   Transform {
     Location {
     }
@@ -45,20 +45,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5374413431800515772
+  ParentId: 6239603124641240916
   UnregisteredParameters {
-    Overrides {
-      Name: "cs:yellow_trigger"
-      ObjectReference {
-        SelfId: 7430745399726698230
-      }
-    }
-    Overrides {
-      Name: "cs:yellow_cube"
-      ObjectReference {
-        SelfId: 16384337709666950014
-      }
-    }
     Overrides {
       Name: "cs:Start_Here_API"
       AssetReference {
@@ -68,56 +56,112 @@ Objects {
     Overrides {
       Name: "cs:step1_ui"
       ObjectReference {
-        SelfId: 6713954717624562678
+        SelfId: 8116028630743572683
       }
     }
     Overrides {
       Name: "cs:step2_ui"
       ObjectReference {
-        SelfId: 7089391692612480176
+        SelfId: 14246547767800589058
       }
     }
     Overrides {
       Name: "cs:step3_ui"
       ObjectReference {
-        SelfId: 12031314768743867011
+        SelfId: 9138125902027729747
       }
     }
     Overrides {
       Name: "cs:step4_ui"
       ObjectReference {
-        SelfId: 18303349504833899468
+        SelfId: 4525803448804696880
       }
     }
     Overrides {
       Name: "cs:root"
       ObjectReference {
-        SelfId: 16196796817296945911
+        SelfId: 11928986467392861910
       }
     }
     Overrides {
       Name: "cs:red_sphere"
       ObjectReference {
-        SelfId: 1348401507359669602
+        SelfId: 12005860131412585766
+        SubObjectId: 10637550184593885546
+        InstanceId: 7116571745904839078
+        TemplateId: 13609739674214314508
       }
     }
     Overrides {
-      Name: "cs:red_trigger"
+      Name: "cs:yellow_cube"
       ObjectReference {
-        SelfId: 17482458584576713691
+        SelfId: 1189201169383226241
+        SubObjectId: 2719520583205511117
+        InstanceId: 7116571745904839078
+        TemplateId: 13609739674214314508
       }
     }
     Overrides {
-      Name: "cs:blue_cylinder"
+      Name: "cs:bottle"
       ObjectReference {
-        SelfId: 5286243905911725926
+        SelfId: 15387919456359648940
       }
     }
     Overrides {
-      Name: "cs:blue_trigger"
-      ObjectReference {
-        SelfId: 15402176443341114252
-      }
+      Name: "cs:Start_Here_API:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:Start_Here_API:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step1_ui:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step1_ui:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step2_ui:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step2_ui:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step3_ui:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step3_ui:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step4_ui:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:step4_ui:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:root:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:root:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:red_sphere:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:red_sphere:ml"
+      Bool: false
     }
   }
   Collidable_v2 {
@@ -134,7 +178,7 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 11467311607381697756
+      Id: 14250268450732242338
     }
   }
 }
