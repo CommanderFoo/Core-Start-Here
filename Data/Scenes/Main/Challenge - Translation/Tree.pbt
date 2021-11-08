@@ -461,7 +461,7 @@ Objects {
       }
       ShadowOffset {
       }
-      GameId: "7866f43283894ec0a0368b69ae7cb1c4"
+      GameId: "bafeb023c9d940f6b6d2f41ced269a10"
       ScreenshotIndex: 4
     }
     AnchorLayout {
@@ -1124,7 +1124,7 @@ Objects {
       }
       ShadowOffset {
       }
-      GameId: "7866f43283894ec0a0368b69ae7cb1c4"
+      GameId: "bafeb023c9d940f6b6d2f41ced269a10"
       ScreenshotIndex: 3
     }
     AnchorLayout {
@@ -1788,7 +1788,7 @@ Objects {
       }
       ShadowOffset {
       }
-      GameId: "7866f43283894ec0a0368b69ae7cb1c4"
+      GameId: "bafeb023c9d940f6b6d2f41ced269a10"
       ScreenshotIndex: 2
     }
     AnchorLayout {

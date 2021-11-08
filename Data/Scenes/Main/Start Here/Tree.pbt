@@ -5,8 +5,7 @@ Objects {
   Name: "Challenge - Material"
   Transform {
     Location {
-      X: -168.960068
-      Y: -41.7575378
+      Y: -46.4406128
     }
     Rotation {
     }
@@ -21,7 +20,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -39,8 +38,7 @@ Objects {
   Name: "Challenge - Scale"
   Transform {
     Location {
-      X: -84.2157898
-      Y: -206.687622
+      Y: -204.592773
     }
     Rotation {
     }
@@ -73,7 +71,7 @@ Objects {
   Name: "Challenge - Rotation"
   Transform {
     Location {
-      Y: 173.76709
+      Y: 209.942474
     }
     Rotation {
     }
@@ -106,7 +104,7 @@ Objects {
   Name: "Challenge - Translation"
   Transform {
     Location {
-      X: 243.738846
+      Y: 68.2756958
     }
     Rotation {
     }
@@ -139,7 +137,7 @@ Objects {
   Name: "Challenge - Visibility"
   Transform {
     Location {
-      X: 242.56897
+      Y: 68.026123
     }
     Rotation {
     }
@@ -154,7 +152,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
