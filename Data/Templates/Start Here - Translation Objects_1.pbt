@@ -26,7 +26,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceon"
         }
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -169,7 +169,7 @@ Assets {
         Transform {
           Location {
             X: -300
-            Y: 1300
+            Y: 1400
             Z: 51.7606201
           }
           Rotation {
@@ -436,7 +436,7 @@ Assets {
         Name: "Blue Ring"
         Transform {
           Location {
-            Y: 1300
+            Y: 1400
             Z: 1.17640686
           }
           Rotation {

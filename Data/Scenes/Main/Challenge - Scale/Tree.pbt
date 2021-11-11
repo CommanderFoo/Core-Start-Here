@@ -2194,8 +2194,8 @@ Objects {
   Name: "Start Here - World Hint"
   Transform {
     Location {
-      X: 700
-      Y: 1100
+      X: 700.000183
+      Y: 1299.99951
     }
     Rotation {
     }
@@ -2948,7 +2948,8 @@ Objects {
   Name: "Start Here - World Hint"
   Transform {
     Location {
-      X: 700
+      X: 699.999817
+      Y: 99.9995
     }
     Rotation {
     }
@@ -4475,19 +4476,13 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 400
-            Y: -200
+            X: 199.999863
+            Y: -200.000137
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceon"
           }
         }
       }

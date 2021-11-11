@@ -2195,7 +2195,7 @@ Objects {
   Transform {
     Location {
       X: 700
-      Y: 1200
+      Y: 1300
     }
     Rotation {
     }
@@ -2946,6 +2946,7 @@ Objects {
   Transform {
     Location {
       X: 700
+      Y: 100
     }
     Rotation {
     }
@@ -3696,7 +3697,7 @@ Objects {
   Transform {
     Location {
       X: 700
-      Y: -1200
+      Y: -1100
     }
     Rotation {
     }
@@ -4469,19 +4470,13 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 400
-            Y: -200
+            X: 313.595947
+            Y: -100
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceon"
           }
         }
       }

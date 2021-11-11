@@ -7,7 +7,7 @@ Assets {
       RootId: 4430006706240769585
       Objects {
         Id: 4430006706240769585
-        Name: "Start Here - Material Objects"
+        Name: "Objects"
         Transform {
           Scale {
             X: 1
@@ -23,7 +23,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceon"
         }
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -102,7 +102,8 @@ Assets {
         Name: "Red Sphere"
         Transform {
           Location {
-            Y: 200
+            X: -2.95639038e-05
+            Y: 300
             Z: 50
           }
           Rotation {
@@ -165,7 +166,8 @@ Assets {
         Name: "Bottle"
         Transform {
           Location {
-            Y: 1300
+            X: 9.6321106e-05
+            Y: 1500
           }
           Rotation {
           }

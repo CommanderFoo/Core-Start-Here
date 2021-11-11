@@ -27,7 +27,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceon"
         }
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -44,7 +44,7 @@ Assets {
         Name: "Chest Direction"
         Transform {
           Location {
-            X: -150
+            X: -100
             Y: -1000
             Z: 0.748779297
           }
@@ -109,6 +109,7 @@ Assets {
         Name: "Chest"
         Transform {
           Location {
+            X: 100
             Y: -1000
           }
           Rotation {
@@ -182,7 +183,7 @@ Assets {
         Transform {
           Location {
             X: 40.8964233
-            Y: 255.1577
+            Y: 300
             Z: 50
           }
           Rotation {
@@ -259,7 +260,7 @@ Assets {
         Name: "Fox Direction"
         Transform {
           Location {
-            X: -50
+            X: -100
             Y: 150
             Z: 0.748779297
           }
@@ -324,7 +325,7 @@ Assets {
         Name: "NPC"
         Transform {
           Location {
-            X: -150
+            X: -100
             Y: 1700
             Z: 105
           }
@@ -387,6 +388,7 @@ Assets {
         Name: "Rifle"
         Transform {
           Location {
+            X: 50
             Y: 1400
             Z: 150
           }
@@ -1518,7 +1520,7 @@ Assets {
         Name: "NPC Direction"
         Transform {
           Location {
-            X: -150
+            X: -100
             Y: 1700
             Z: 0.748779297
           }

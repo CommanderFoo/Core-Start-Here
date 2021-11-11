@@ -1,19 +1,19 @@
 Assets {
+  Id: 18013118222213649914
+  Name: "Large Wood Beam 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_large_beam_6m"
+  }
+}
+Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_SunLight"
-  }
-}
-Assets {
-  Id: 16287923630633682412
-  Name: "Basic Material"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_pbr_material_001"
   }
 }
 Assets {
@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10957165496774604636
+  Name: "Craftsman Floor 01 4m x 4m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_urb_sub_craftsman_floor_001_4x4"
+  }
+}
+Assets {
   Id: 9205426684861938995
   Name: "Tiled Grass 001"
   PlatformAssetType: 9
@@ -80,15 +89,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6681112360151275507
-  Name: "Fantasy Castle Pillar 02 - Top"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_pillar_002_top"
-  }
-}
-Assets {
   Id: 6068190794799269638
   Name: "Artificial Grass 01"
   PlatformAssetType: 2
@@ -104,6 +104,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Core_UI_AbstractPackFrame_004"
+  }
+}
+Assets {
+  Id: 2056914992845306002
+  Name: "Plane 1m - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_1m_001"
   }
 }
 Assets {

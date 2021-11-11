@@ -2194,8 +2194,8 @@ Objects {
   Name: "Start Here - World Hint"
   Transform {
     Location {
-      X: 700
-      Y: 1100
+      X: 700.000244
+      Y: 1399.99951
     }
     Rotation {
     }
@@ -2948,7 +2948,8 @@ Objects {
   Name: "Start Here - World Hint"
   Transform {
     Location {
-      X: 700
+      X: 699.999878
+      Y: 199.999496
     }
     Rotation {
     }
@@ -3702,7 +3703,7 @@ Objects {
   Transform {
     Location {
       X: 700
-      Y: -1100
+      Y: -1000.00049
     }
     Rotation {
     }
@@ -4477,8 +4478,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 400
-            Y: -200
+            X: 199.999924
+            Y: -100.000145
           }
         }
         Overrides {

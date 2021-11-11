@@ -26,7 +26,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceon"
         }
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -105,7 +105,8 @@ Assets {
         Name: "Red Sphere"
         Transform {
           Location {
-            Y: 200
+            X: -2.95639038e-05
+            Y: 300
           }
           Rotation {
           }
@@ -167,7 +168,8 @@ Assets {
         Name: "Blue Cylinder"
         Transform {
           Location {
-            Y: 1300
+            X: 9.6321106e-05
+            Y: 1500
           }
           Rotation {
           }
@@ -293,7 +295,8 @@ Assets {
         Name: "Red Circle"
         Transform {
           Location {
-            Y: 200
+            X: -2.95639038e-05
+            Y: 300
             Z: 5.06703186
           }
           Rotation {
@@ -355,8 +358,8 @@ Assets {
         Name: "Blue Ring"
         Transform {
           Location {
-            X: -2.33661849e-05
-            Y: 1299.99609
+            X: 9.6318312e-05
+            Y: 1499.99609
             Z: 250
           }
           Rotation {

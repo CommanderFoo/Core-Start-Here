@@ -2925,18 +2925,12 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 400
+            X: 200
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceon"
           }
         }
       }
