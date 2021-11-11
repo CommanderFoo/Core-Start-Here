@@ -1,6 +1,6 @@
 local Start_Here = require(script:GetCustomProperty("Start_Here_API"))
 
-local root = script:GetCustomProperty("root"):WaitForObject()
+local root = script.parent.parent
 
 local step1_ui = script:GetCustomProperty("step1_ui"):WaitForObject()
 local step2_ui = script:GetCustomProperty("step2_ui"):WaitForObject()
@@ -39,4 +39,8 @@ end
 
 if(success == 3 and root.visibility ~= Visibility.FORCE_OFF) then
 	Events.Broadcast("complete")
+end
+
+if(root.visibility ~= Visibility.FORCE_OFF) then
+	Events.BroadcastToServer("spawn", "Material")
 end

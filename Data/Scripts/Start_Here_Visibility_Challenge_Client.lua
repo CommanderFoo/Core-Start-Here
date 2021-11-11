@@ -1,6 +1,6 @@
 local Start_Here = require(script:GetCustomProperty("Start_Here_API"))
 
-local root = script:GetCustomProperty("root"):WaitForObject()
+local root = script.parent.parent
 
 local yellow_cube = script:GetCustomProperty("yellow_cube"):WaitForObject()
 local red_sphere = script:GetCustomProperty("red_sphere"):WaitForObject()
@@ -15,7 +15,7 @@ local success = 0
 
 Start_Here.show_tick(step4_ui)
 
-if(yellow_cube.visibility == Visibility.INHERIT) then
+if(yellow_cube.visibility == Visibility.FORCE_ON) then
 	Start_Here.show_tick(step1_ui)
 	success = success + 1
 end
@@ -32,4 +32,8 @@ end
 
 if(success == 3 and root.visibility ~= Visibility.FORCE_OFF) then
 	Events.Broadcast("show_success", "Visibility", "Translation")
+end
+
+if(root.visibility ~= Visibility.FORCE_OFF) then
+	Events.BroadcastToServer("spawn", "Visibility")
 end

@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16287923630633682412
+  Name: "Basic Material"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_pbr_material_001"
+  }
+}
+Assets {
   Id: 16132957948410424712
   Name: "Tiled Generic 003"
   PlatformAssetType: 9
@@ -68,6 +77,24 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Sky"
+  }
+}
+Assets {
+  Id: 6681112360151275507
+  Name: "Fantasy Castle Pillar 02 - Top"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_pillar_002_top"
+  }
+}
+Assets {
+  Id: 6068190794799269638
+  Name: "Artificial Grass 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_grass_artificial_001_uv_ref"
   }
 }
 Assets {

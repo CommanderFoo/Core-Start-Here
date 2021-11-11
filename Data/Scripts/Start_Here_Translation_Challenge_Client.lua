@@ -1,6 +1,6 @@
 local Start_Here = require(script:GetCustomProperty("Start_Here_API"))
 
-local root = script:GetCustomProperty("root"):WaitForObject()
+local root = script.parent.parent
 
 local yellow_trigger = script:GetCustomProperty("yellow_trigger"):WaitForObject()
 local yellow_cube = script:GetCustomProperty("yellow_cube"):WaitForObject()
@@ -46,4 +46,8 @@ end
 
 if(success == 3 and root.visibility ~= Visibility.FORCE_OFF) then
 	Events.Broadcast("show_success", "Translation", "Rotation")
+end
+
+if(root.visibility ~= Visibility.FORCE_OFF) then
+	Events.BroadcastToServer("spawn", "Translation")
 end

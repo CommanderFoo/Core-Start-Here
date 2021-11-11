@@ -367,7 +367,7 @@ Assets {
               PlaybackRate: 1
             }
             SkinnedMeshes {
-              Id: 619976052235243197
+              Id: 10894225117271958585
             }
             SkinnedMeshes {
               Id: 841534158063459245
@@ -1616,12 +1616,12 @@ Assets {
       }
     }
     Assets {
-      Id: 619976052235243197
-      Name: "Humanoid 1 Aparna"
+      Id: 10894225117271958585
+      Name: "Humanoid 1 Kate"
       PlatformAssetType: 26
       PrimaryAsset {
         AssetType: "SkinnedMeshAssetRef"
-        AssetId: "npc_human_gal_head_basic_008_ref"
+        AssetId: "npc_human_gal_head_basic_004_ref"
       }
     }
     Assets {

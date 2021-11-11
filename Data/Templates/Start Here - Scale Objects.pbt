@@ -21,7 +21,7 @@ Assets {
         ChildIds: 14115554726697624678
         ChildIds: 11643438870495077193
         ChildIds: 854510753436611649
-        ChildIds: 16301226813023225526
+        ChildIds: 5428189844748789711
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -351,11 +351,12 @@ Assets {
         IsAdvanced: true
       }
       Objects {
-        Id: 16301226813023225526
+        Id: 5428189844748789711
         Name: "Blue Ring"
         Transform {
           Location {
-            Y: 1300
+            X: -2.33661849e-05
+            Y: 1299.99609
             Z: 250
           }
           Rotation {
@@ -363,11 +364,10 @@ Assets {
           Scale {
             X: 1
             Y: 1
-            Z: 1
+            Z: 0.404396862
           }
         }
         ParentId: 8768492793163169027
-        ChildIds: 2201084339672120215
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -397,7 +397,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 13299206338558242268
+            Id: 12941525301541720419
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -411,68 +411,6 @@ Assets {
             BoundsScale: 1
           }
         }
-        IsAdvanced: true
-      }
-      Objects {
-        Id: 2201084339672120215
-        Name: "Blue Ring"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Roll: -179.999985
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 16301226813023225526
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 16640192872858136421
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:color"
-            Color {
-              B: 1
-              A: 1
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 13299206338558242268
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          StaticMesh {
-            Physics {
-              Mass: 100
-              LinearDamping: 0.01
-            }
-            BoundsScale: 1
-          }
-        }
-        IsAdvanced: true
       }
     }
     Assets {
@@ -530,12 +468,12 @@ Assets {
       }
     }
     Assets {
-      Id: 13299206338558242268
-      Name: "Plane Ring - One Sided Thick"
+      Id: 12941525301541720419
+      Name: "Ring - Beveled Thick"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_plane_ring_003"
+        AssetId: "sm_ring_faceted_003"
       }
     }
     PrimaryAssetId {

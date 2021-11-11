@@ -11,4 +11,5 @@ end)
 
 Events.Connect("complete", function()
 	complete.visibility = Visibility.FORCE_ON
+	success.visibility = Visibility.FORCE_OFF
 end)
