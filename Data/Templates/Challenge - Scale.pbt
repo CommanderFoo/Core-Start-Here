@@ -920,7 +920,7 @@ Assets {
             ShadowOffset {
             }
             GameId: "2136128c97124bc5a41c98f861df2b25"
-            ScreenshotIndex: 3
+            ScreenshotIndex: 4
           }
           AnchorLayout {
             SelfAnchor {
@@ -964,7 +964,7 @@ Assets {
         }
         Control {
           Width: -30
-          Height: 122
+          Height: 178
           UIX: 5
           UIY: 5
           RenderTransformPivot {
@@ -1157,8 +1157,8 @@ Assets {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         Control {
-          Width: 1180
-          Height: 96
+          Width: 1210
+          Height: 126
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -1173,7 +1173,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 25
+            Size: 29
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -1850,7 +1850,7 @@ Assets {
             ShadowOffset {
             }
             GameId: "2136128c97124bc5a41c98f861df2b25"
-            ScreenshotIndex: 4
+            ScreenshotIndex: 5
           }
           AnchorLayout {
             SelfAnchor {
@@ -1894,7 +1894,7 @@ Assets {
         }
         Control {
           Width: -30
-          Height: 122
+          Height: 178
           UIX: 5
           UIY: 5
           RenderTransformPivot {
@@ -2087,8 +2087,8 @@ Assets {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         Control {
-          Width: 1180
-          Height: 96
+          Width: 1210
+          Height: 116
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -2103,7 +2103,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 25
+            Size: 29
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -2783,8 +2783,8 @@ Assets {
             }
             ShadowOffset {
             }
-            GameId: "2136128c97124bc5a41c98f861df2b25"
-            ScreenshotIndex: 5
+            GameId: "f6f605ed85f84e798dfc80426c4d729e"
+            ScreenshotIndex: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -2828,7 +2828,7 @@ Assets {
         }
         Control {
           Width: -30
-          Height: 122
+          Height: 178
           UIX: 5
           UIY: 5
           RenderTransformPivot {
@@ -3021,8 +3021,8 @@ Assets {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         Control {
-          Width: 1058
-          Height: 96
+          Width: 1210
+          Height: 130
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -3037,7 +3037,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 25
+            Size: 32
             Justification {
               Value: "mc:etextjustify:center"
             }

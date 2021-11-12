@@ -2203,15 +2203,6 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
-      key: 5612727409527613387
-      value {
-        Overrides {
-          Name: "ScreenshotIndex"
-          Int: 5
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 9661475572875589673
       value {
         Overrides {
@@ -2230,36 +2221,6 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9670622762079040127
-      value {
-        Overrides {
-          Name: "ScreenshotIndex"
-          Int: 3
-        }
-        Overrides {
-          Name: "Width"
-          Int: 0
-        }
-        Overrides {
-          Name: "Height"
-          Int: 0
-        }
-        Overrides {
-          Name: "UIAddSelfSizeToInheritedSize"
-          Bool: true
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16875720450803134813
-      value {
-        Overrides {
-          Name: "ScreenshotIndex"
-          Int: 4
         }
       }
     }
@@ -2324,6 +2285,12 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 6480078470306797224

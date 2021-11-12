@@ -489,8 +489,7 @@ Assets {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         Control {
-          Width: -30
-          Height: -20
+          Height: 255
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -498,19 +497,18 @@ Assets {
           }
           AddSizeToParentIfUsingParentSize: true
           UseParentWidth: true
-          UseParentHeight: true
           Panel {
             Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:topcenter"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:topcenter"
               }
             }
           }
@@ -614,23 +612,26 @@ Assets {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         Control {
-          Height: 293
+          Width: 1240
+          Height: -50
+          UIX: 25
+          UIY: 15
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           AddSizeToParentIfUsingParentSize: true
-          UseParentWidth: true
+          UseParentHeight: true
           Text {
-            Label: "Some text here to explain what to do after each challenge is completed.\r\nSomething Something.\r\nSomething else.\r\n\r\nMaybe an image here to show how to enable the next challenge?"
+            Label: "When you complete a challenge, find it in the Hierarchy window, and set the Visbility to Force Off. Find the next challenge, and set the Visibility to Force On."
             Color {
               R: 1
               G: 1
               B: 1
               A: 1
             }
-            Size: 29
+            Size: 36
             Justification {
               Value: "mc:etextjustify:center"
             }
@@ -654,12 +655,12 @@ Assets {
           AnchorLayout {
             SelfAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:topleft"
               }
             }
             TargetAnchor {
               Anchor {
-                Value: "mc:euianchor:middlecenter"
+                Value: "mc:euianchor:topleft"
               }
             }
           }

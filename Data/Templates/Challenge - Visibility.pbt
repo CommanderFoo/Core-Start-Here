@@ -771,7 +771,7 @@ Assets {
         }
         Control {
           Width: -30
-          Height: 106
+          Height: 178
           UIX: 5
           UIY: 5
           RenderTransformPivot {
@@ -964,14 +964,14 @@ Assets {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         Control {
-          Height: 49
+          Width: 1210
+          Height: 130
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
           AddSizeToParentIfUsingParentSize: true
-          UseParentWidth: true
           Text {
             Label: "Select an object from the Hierarchy, and set a visibility option from the drop down."
             Color {
@@ -980,7 +980,7 @@ Assets {
               B: 1
               A: 1
             }
-            Size: 25
+            Size: 36
             Justification {
               Value: "mc:etextjustify:center"
             }
