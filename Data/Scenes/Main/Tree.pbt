@@ -16,12 +16,12 @@ Objects {
   }
   ChildIds: 5024957321450631528
   ChildIds: 9035302723893102253
-  ChildIds: 16249480106504107942
-  ChildIds: 785882700680306319
-  ChildIds: 11703923679340297822
-  ChildIds: 17179497245454427575
-  ChildIds: 11117692185548590955
-  ChildIds: 10456645476100229599
+  ChildIds: 1711122730531429657
+  ChildIds: 8948066646545811196
+  ChildIds: 14844012218084279371
+  ChildIds: 829260483883925388
+  ChildIds: 14292460857033343901
+  ChildIds: 2835927345226947436
   ChildIds: 10940565467359927916
   ChildIds: 8831267398837724545
   UnregisteredParameters {
@@ -1947,17 +1947,9 @@ Objects {
   }
 }
 Objects {
-  Id: 10456645476100229599
+  Id: 2835927345226947436
   Name: "Challenge - Material"
   Transform {
-    Location {
-      X: -2900
-      Y: 5300
-      Z: 25.5600262
-    }
-    Rotation {
-      Yaw: -179.999969
-    }
     Scale {
       X: 1
       Y: 1
@@ -1965,35 +1957,39 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Challenge - Material"
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12974004955495888186
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Challenge - Material"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2900
+            Y: 5300
+            Z: 25.5600262
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999954
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17865203507419085385
+    }
   }
 }
 Objects {
-  Id: 11117692185548590955
+  Id: 14292460857033343901
   Name: "Challenge - Scale"
   Transform {
-    Location {
-      X: -2900
-      Y: 9300
-      Z: 25.5600262
-    }
-    Rotation {
-      Yaw: -179.999969
-    }
     Scale {
       X: 1
       Y: 1
@@ -2001,34 +1997,39 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Challenge - Scale"
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2876737751390849543
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Challenge - Scale"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2900
+            Y: 9300
+            Z: 25.5600262
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -179.999954
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11986639609650161354
+    }
   }
 }
 Objects {
-  Id: 17179497245454427575
+  Id: 829260483883925388
   Name: "Challenge - Rotation"
   Transform {
-    Location {
-      X: -913.595947
-      Y: 9100
-      Z: 25.5600262
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -2036,34 +2037,33 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Challenge - Rotation"
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15439089618340726195
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Challenge - Rotation"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -913.595947
+            Y: 9100
+            Z: 25.5600262
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10510858548763173126
+    }
   }
 }
 Objects {
-  Id: 11703923679340297822
+  Id: 14844012218084279371
   Name: "Challenge - Translation"
   Transform {
-    Location {
-      X: -913.595947
-      Y: 5100
-      Z: 25.5600262
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -2071,34 +2071,33 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Challenge - Translation"
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9661475572875589673
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Challenge - Translation"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -913.595947
+            Y: 5100
+            Z: 25.5600262
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2678058455889434534
+    }
   }
 }
 Objects {
-  Id: 785882700680306319
+  Id: 8948066646545811196
   Name: "Challenge - Visibility"
   Transform {
-    Location {
-      X: -900
-      Y: 2200
-      Z: 25.5600262
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -2106,34 +2105,33 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Challenge - Visibility"
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14918810225946490299
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Challenge - Visibility"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -900
+            Y: 2200
+            Z: 25.5600262
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6076305314263182164
+    }
   }
 }
 Objects {
-  Id: 16249480106504107942
+  Id: 1711122730531429657
   Name: "Challenge - Start Here"
   Transform {
-    Location {
-      X: -900
-      Y: 500
-      Z: 25.5600262
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -2141,21 +2139,27 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Challenge - Start Here"
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6480078470306797224
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Challenge - Start Here"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -900
+            Y: 500
+            Z: 25.5600262
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10803004432551000070
+    }
   }
 }
 Objects {
