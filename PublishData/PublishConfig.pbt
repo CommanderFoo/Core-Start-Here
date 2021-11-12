@@ -3,11 +3,11 @@ ClientVersion: "1.0.222-prod-s"
 Name: "Start Here - Image Set 1"
 Description: "Images for the Start Here project"
 Tags: "Experimental"
+ScreenshotPaths: "C:\\Users\\pixel\\Documents\\My Games\\CORE\\Saved\\Maps\\Start Here\\Screenshots\\Start Here Challenge.png"
 ScreenshotPaths: "C:\\Users\\pixel\\Documents\\My Games\\CORE\\Saved\\Maps\\Start Here\\Screenshots\\Visibility Challenge.png"
 ScreenshotPaths: "C:\\Users\\pixel\\Documents\\My Games\\CORE\\Saved\\Maps\\Start Here\\Screenshots\\Translation Challenge - Yellow Cube.png"
 ScreenshotPaths: "C:\\Users\\pixel\\Documents\\My Games\\CORE\\Saved\\Maps\\Start Here\\Screenshots\\Translation Challenge - Red Sphere.png"
 ScreenshotPaths: "C:\\Users\\pixel\\Documents\\My Games\\CORE\\Saved\\Maps\\Start Here\\Screenshots\\Translation Challenge - Blue Cylinder.png"
-ScreenshotPaths: "C:\\Users\\pixel\\Documents\\My Games\\CORE\\Saved\\Maps\\Start Here\\Screenshots\\Rotation Challenge - Chest.png"
 OwnerId: "bd602d5201b04b3fbf7be10f59c8f974"
 SerializationVersion: 2
 SceneNameToSceneIdMap {
