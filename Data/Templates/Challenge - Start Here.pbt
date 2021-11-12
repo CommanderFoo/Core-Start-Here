@@ -434,6 +434,9 @@ Assets {
             Brush {
             }
             Color {
+              R: 1
+              G: 1
+              B: 1
               A: 1
             }
             TeamSettings {
@@ -443,6 +446,7 @@ Assets {
             }
             ShadowOffset {
             }
+            GameId: "bafeb023c9d940f6b6d2f41ced269a10"
             ScreenshotIndex: 1
           }
           AnchorLayout {

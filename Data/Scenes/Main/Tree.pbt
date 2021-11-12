@@ -2203,6 +2203,15 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5612727409527613387
+      value {
+        Overrides {
+          Name: "ScreenshotIndex"
+          Int: 5
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 9661475572875589673
       value {
         Overrides {
@@ -2224,6 +2233,36 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 9670622762079040127
+      value {
+        Overrides {
+          Name: "ScreenshotIndex"
+          Int: 3
+        }
+        Overrides {
+          Name: "Width"
+          Int: 0
+        }
+        Overrides {
+          Name: "Height"
+          Int: 0
+        }
+        Overrides {
+          Name: "UIAddSelfSizeToInheritedSize"
+          Bool: true
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16875720450803134813
+      value {
+        Overrides {
+          Name: "ScreenshotIndex"
+          Int: 4
+        }
+      }
+    }
     TemplateAsset {
       Id: 2678058455889434534
     }
@@ -2240,6 +2279,12 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 14918810225946490299
@@ -2296,9 +2341,8 @@ Objects {
           }
         }
         Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceon"
+          Name: "Rotation"
+          Rotator {
           }
         }
       }

@@ -559,6 +559,7 @@ Assets {
           }
         }
         ParentId: 11232731310811042450
+        ChildIds: 9365082342614306528
         ChildIds: 16386106453023861400
         ChildIds: 10936211117181791348
         Collidable_v2 {
@@ -605,6 +606,72 @@ Assets {
         }
       }
       Objects {
+        Id: 9365082342614306528
+        Name: "Image"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 6.83018516e-06
+          }
+          Scale {
+            X: 1.00000012
+            Y: 1.00000012
+            Z: 1.00000012
+          }
+        }
+        ParentId: 12590225124210916150
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Control {
+          RenderTransformPivot {
+            Anchor {
+              Value: "mc:euianchor:middlecenter"
+            }
+          }
+          AddSizeToParentIfUsingParentSize: true
+          UseParentWidth: true
+          UseParentHeight: true
+          Image {
+            Brush {
+            }
+            Color {
+              A: 1
+            }
+            TeamSettings {
+            }
+            ShadowColor {
+              A: 1
+            }
+            ShadowOffset {
+            }
+            ScreenshotIndex: 2
+          }
+          AnchorLayout {
+            SelfAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+            TargetAnchor {
+              Anchor {
+                Value: "mc:euianchor:middlecenter"
+              }
+            }
+          }
+        }
+      }
+      Objects {
         Id: 16386106453023861400
         Name: "Image"
         Transform {
@@ -632,13 +699,15 @@ Assets {
           Value: "mc:eindicatorvisibility:visiblewhenselected"
         }
         Control {
-          Width: 663
-          Height: 472
+          Width: -50
+          Height: -50
+          UIY: 25
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
             }
           }
+          AddSizeToParentIfUsingParentSize: true
           UseParentWidth: true
           UseParentHeight: true
           Image {
@@ -658,7 +727,7 @@ Assets {
             ShadowOffset {
             }
             GameId: "bafeb023c9d940f6b6d2f41ced269a10"
-            ScreenshotIndex: 1
+            ScreenshotIndex: 2
           }
           AnchorLayout {
             SelfAnchor {
