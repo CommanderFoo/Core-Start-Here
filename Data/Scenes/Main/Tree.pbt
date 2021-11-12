@@ -24,6 +24,7 @@ Objects {
   ChildIds: 2835927345226947436
   ChildIds: 10940565467359927916
   ChildIds: 8831267398837724545
+  ChildIds: 3332318257179023714
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,6 +37,75 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 3332318257179023714
+  Name: "Post Processing"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 9459783693786662311
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+  }
+  IsAdvanced: true
+}
+Objects {
+  Id: 9459783693786662311
+  Name: "Environment Fog Default VFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3332318257179023714
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 955047523723749749
+    }
+    TeamSettings {
+    }
   }
 }
 Objects {
@@ -114,12 +184,13 @@ Objects {
   Name: "Plane 1m - One Sided"
   Transform {
     Location {
+      X: 100
     }
     Rotation {
     }
     Scale {
-      X: 67.25
-      Y: 133.75
+      X: 122.250023
+      Y: 162.5
       Z: 53
     }
   }
@@ -458,13 +529,13 @@ Objects {
   Transform {
     Location {
       X: -1194.85571
-      Y: -5597.66211
+      Y: -5700.29248
     }
     Rotation {
       Yaw: 89.9999771
     }
     Scale {
-      X: 13.7505608
+      X: 13.8754587
       Y: 1
       Z: 1
     }
@@ -1163,13 +1234,13 @@ Objects {
   Transform {
     Location {
       X: -41.1540527
-      Y: -5597.66211
+      Y: -5700.29248
     }
     Rotation {
       Yaw: 89.9999847
     }
     Scale {
-      X: 13.7505608
+      X: 13.8754587
       Y: 1
       Z: 1
     }

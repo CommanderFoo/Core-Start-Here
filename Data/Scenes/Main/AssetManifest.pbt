@@ -116,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 955047523723749749
+  Name: "Environment Fog Default VFX"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_env_fog_default"
+  }
+}
+Assets {
   Id: 587048114268740546
   Name: "Icon mouse Right"
   PlatformAssetType: 9
