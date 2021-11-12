@@ -279,4 +279,5 @@ Assets {
     }
   }
   SerializationVersion: 101
+  VirtualFolderPath: "Start Here"
 }

@@ -17,6 +17,24 @@ Assets {
   }
 }
 Assets {
+  Id: 16132957948410424712
+  Name: "Tiled Generic 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_TiledBG_024"
+  }
+}
+Assets {
+  Id: 16041545953648154011
+  Name: "Frame Outlined Thick 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameFlat_020"
+  }
+}
+Assets {
   Id: 14400219362966545222
   Name: "Wood Planks"
   PlatformAssetType: 2
@@ -41,6 +59,24 @@ Assets {
   PrimaryAsset {
     AssetType: "FontAssetRef"
     AssetId: "TekoBold_ref"
+  }
+}
+Assets {
+  Id: 9205426684861938995
+  Name: "Tiled Grass 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_TiledBG_025"
+  }
+}
+Assets {
+  Id: 2557694774063952100
+  Name: "Abstract Frame 10"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Core_UI_AbstractPackFrame_004"
   }
 }
 Assets {

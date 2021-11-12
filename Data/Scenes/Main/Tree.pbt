@@ -1598,6 +1598,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 11729463915844668909
   ChildIds: 785981145371388174
   ChildIds: 16745607683751872891
   ChildIds: 1636772547722640200
@@ -1900,6 +1901,52 @@ Objects {
   }
 }
 Objects {
+  Id: 11729463915844668909
+  Name: "Start Here"
+  Transform {
+    Location {
+      X: -400
+      Y: -1600
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10940565467359927916
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 10456645476100229599
   Name: "Challenge - Material"
   Transform {
@@ -2063,7 +2110,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2078,7 +2125,7 @@ Objects {
 }
 Objects {
   Id: 16249480106504107942
-  Name: "Start Here"
+  Name: "Challenge - Start Here"
   Transform {
     Location {
       X: -900
@@ -2108,9 +2155,8 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Start Here"
+    FilePartitionName: "Challenge - Start Here"
   }
-  IsAdvanced: true
 }
 Objects {
   Id: 9035302723893102253
