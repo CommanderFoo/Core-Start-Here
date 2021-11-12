@@ -189,8 +189,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 122.250023
-      Y: 162.5
+      X: 500
+      Y: 500
       Z: 53
     }
   }
@@ -277,6 +277,7 @@ Objects {
   ChildIds: 5053582852992244478
   ChildIds: 6076087102505409402
   ChildIds: 5685768668055789161
+  ChildIds: 8195172310188876967
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -291,6 +292,53 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 8195172310188876967
+  Name: "Craftsman Floor 01 4m x 4m"
+  Transform {
+    Location {
+      X: -2394.85571
+      Y: -2300.29248
+      Z: 17.4758625
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3
+      Y: 3
+      Z: 1
+    }
+  }
+  ParentId: 8735570682879460214
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10957165496774604636
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
   }
 }
 Objects {
@@ -2028,6 +2076,12 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceon"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 12974004955495888186
@@ -2124,6 +2178,11 @@ Objects {
             Z: 25.5600262
           }
         }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
       }
     }
     TemplateAsset {
@@ -2156,6 +2215,11 @@ Objects {
             X: -913.595947
             Y: 5100
             Z: 25.5600262
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
@@ -2192,6 +2256,11 @@ Objects {
             Z: 25.5600262
           }
         }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
       }
     }
     TemplateAsset {
@@ -2224,6 +2293,12 @@ Objects {
             X: -900
             Y: 500
             Z: 25.5600262
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceon"
           }
         }
       }
