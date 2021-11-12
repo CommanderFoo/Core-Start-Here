@@ -1792,7 +1792,7 @@ Objects {
   Name: "Material"
   Transform {
     Location {
-      X: -1400
+      X: -1300
       Y: 4200
     }
     Rotation {
@@ -1839,7 +1839,7 @@ Objects {
   Name: "Scale"
   Transform {
     Location {
-      X: -1400
+      X: -1300
       Y: 8300
     }
     Rotation {
@@ -1886,7 +1886,7 @@ Objects {
   Name: "Rotation"
   Transform {
     Location {
-      X: -400
+      X: -550
       Y: 5900
     }
     Rotation {
@@ -1932,7 +1932,7 @@ Objects {
   Name: "Translation"
   Transform {
     Location {
-      X: -400
+      X: -550
       Y: 1800
     }
     Rotation {
@@ -1978,7 +1978,7 @@ Objects {
   Name: "Visibility"
   Transform {
     Location {
-      X: -400
+      X: -550
       Y: 100
     }
     Rotation {
@@ -2024,7 +2024,7 @@ Objects {
   Name: "Start Here"
   Transform {
     Location {
-      X: -400
+      X: -550
       Y: -1600
     }
     Rotation {
@@ -2080,7 +2080,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   TemplateInstance {
     ParameterOverrideMap {
@@ -2122,6 +2122,12 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 2876737751390849543
@@ -2162,6 +2168,12 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 15439089618340726195
@@ -2201,6 +2213,12 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 9661475572875589673
@@ -3369,8 +3387,8 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 368
-    Height: 232
+    Width: 391
+    Height: 219
     UIX: -75
     UIY: 75
     RenderTransformPivot {
@@ -3494,7 +3512,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 280
+    Width: -50
     Height: 40
     UIX: 25
     UIY: 25
@@ -3503,6 +3521,8 @@ Objects {
         Value: "mc:euianchor:middlecenter"
       }
     }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
     Text {
       Label: "Well done. You have completed all the challenges."
       Color {

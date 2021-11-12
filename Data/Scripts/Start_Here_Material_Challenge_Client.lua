@@ -6,7 +6,7 @@ local step1_ui = script:GetCustomProperty("step1_ui"):WaitForObject()
 local step2_ui = script:GetCustomProperty("step2_ui"):WaitForObject()
 local step3_ui = script:GetCustomProperty("step3_ui"):WaitForObject()
 local step4_ui = script:GetCustomProperty("step4_ui"):WaitForObject()
-local step5_ui = script:GetCustomProperty("step4_ui"):WaitForObject()
+local step5_ui = script:GetCustomProperty("step5_ui"):WaitForObject()
 
 local yellow_cube = script:GetCustomProperty("yellow_cube"):WaitForObject()
 local red_sphere = script:GetCustomProperty("red_sphere"):WaitForObject()
@@ -41,7 +41,7 @@ end
 
 local white_sphere_material = white_sphere:GetMaterialSlots()[1]
 
-if(white_sphere_material.materialAssetName ~= "Asphalt 01") then
+if(white_sphere_material.materialAssetName == "Asphalt 01") then
 	success = success + 1
 	Start_Here.show_tick(step4_ui)
 end

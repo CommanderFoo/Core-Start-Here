@@ -16,6 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 8798646576801628029
         ChildIds: 7993050142113417931
         ChildIds: 14346243125934873865
         ChildIds: 3949296564417510165
@@ -43,6 +44,73 @@ Assets {
           IsFilePartition: true
           FilePartitionName: "Challenge - Translation"
         }
+      }
+      Objects {
+        Id: 8798646576801628029
+        Name: "Arrow"
+        Transform {
+          Location {
+            X: -586.404053
+            Y: -1200
+            Z: -12.2503681
+          }
+          Rotation {
+            Yaw: 89.9999542
+            Roll: -89.9999695
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9661475572875589673
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Font_Neon:color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Font_Neon:id"
+            AssetReference {
+              Id: 1081362195737165579
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 15806110685795956427
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        IsAdvanced: true
       }
       Objects {
         Id: 7993050142113417931
@@ -5489,6 +5557,15 @@ Assets {
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 15806110685795956427
+      Name: "Sign Neon Arrow Outline: Sharp"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "NeonArrows_01_Text_030"
       }
     }
     Assets {

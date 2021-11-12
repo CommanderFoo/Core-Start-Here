@@ -16,6 +16,7 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 14605390533963985907
         ChildIds: 8324374597293288369
         ChildIds: 3860006292459079524
         ChildIds: 9479225378183844291
@@ -42,6 +43,74 @@ Assets {
           IsFilePartition: true
           FilePartitionName: "Challenge - Material"
         }
+      }
+      Objects {
+        Id: 14605390533963985907
+        Name: "Arrow"
+        Transform {
+          Location {
+            X: -599.942383
+            Y: -1049.99609
+            Z: -12.2503681
+          }
+          Rotation {
+            Pitch: 6.83018879e-06
+            Yaw: 89.9999237
+            Roll: -89.999939
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 12974004955495888186
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Font_Neon:color"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "ma:Font_Neon:id"
+            AssetReference {
+              Id: 1081362195737165579
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 15806110685795956427
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        IsAdvanced: true
       }
       Objects {
         Id: 8324374597293288369
@@ -6930,6 +6999,15 @@ Assets {
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 15806110685795956427
+      Name: "Sign Neon Arrow Outline: Sharp"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "NeonArrows_01_Text_030"
       }
     }
     Assets {
